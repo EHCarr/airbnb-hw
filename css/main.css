@@ -1,0 +1,83 @@
+/*
+google font: Nunito
+
+brand red: #ff5358
+dark red: #e00007
+background grey: #efefef
+title grey: #edefed
+footer grey: #2B2D2E
+*/
+body {
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+.melbourne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/melbourne.jpg");
+    min-height: 40%;
+    color: white;
+}
+
+button {
+    background-color: #ff5358;
+    font-size: 16px;
+    padding: 14px 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;  
+}
+
+#articles {
+    background-color:  #efefef;
+    display: flex;
+    padding: 25px;
+    
+}
+
+#grey {
+    background-color:  #edefed;
+}
+
+#neighborhoods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+footer {
+    background-color: #2B2D2E;
+    color: white;
+    margin: auto;
+    height: 100px;
+    
+}
+
+#trademark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+}
+
+area {
+    flex: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+}
